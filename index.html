@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Time tracking dashboard</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/1af288f764.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container1">
+    <div id="box1" class="container2 order">
+      <div id="a">
+        <a class="a" href="#" id="daily">Daily</a>
+        <a class="a" href="#" id="weekly">Weekly</a>
+        <a class="a" href="#" id="monthly">Monthly</a>
+      </div>
+      <div class="container3">
+        <img src="images/images.jpeg" alt="Image">
+        <p id="p2">Welcome to the time tracking dashboard</p>
+      </div>
+    </div>
+  
+
+    <div id="box2">
+      <div id="B1" class="container4 order">
+        <i class="fa-solid fa-briefcase fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Work</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="WSelect">
+                <option value="enable" class="enable" id="WEnable">Enable</option>
+                <option value="disable" class="disable" id="WDisable">Disable</option>
+                <option value="reset" class="rest" id="WRest">Reset</option>
+            </select>
+        </div>
+        <div class="hrs">
+            <div id="HWork" class="heure">00:00:00</div>
+        </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="Wchange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="B2" class="container4">
+        <i class="fa-solid fa-person-walking fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Exercice</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="ExSelect">
+                  <option value="enable" class="enable" id="ExEnable">Enable</option>
+                  <option value="disable" class="disable" id="ExDisable">Disable</option>
+                  <option value="reset" class="rest" id="ExRest">Reset</option>
+              </select>
+          </div>
+          <div class="hrs">
+              <div id="HExercice" class="heure">00:00:00</div>
+          </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="ExChange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="box3">
+      <div id="B3" class="container4 order">
+        <i class="fa-solid fa-gamepad fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Play</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="PlSelect">
+                <option value="enable" class="enable" id="PlEnable">Enable</option>
+                <option value="disable" class="disable" id="PlDisable">Disable</option>
+                <option value="reset" class="rest" id="PlRest">Reset</option>
+            </select>
+        </div>
+        <div class="hrs">
+            <div id="HPlay" class="heure">00:00:00</div>
+        </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="PlChange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="B4" class="container4">
+        <i class="fa-solid fa-comment fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Sociel</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="SoSelect">
+                <option value="enable" class="enable" id="SoEnable">Enable</option>
+                <option value="disable" class="disable" id="SoDisable">Disable</option>
+                <option value="reset" class="rest" id="SoRest">Reset</option>
+            </select>
+            </div>
+            <div class="hrs">
+              <div id="HSociel" class="heure">00:00:00</div>
+            </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="SoChange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="box4">
+      <div id="B5" class="container4 order box">
+        <i class="fa-solid fa-book-open fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Study</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="Stselect">
+                <option value="enable" class="enable" id="StEnable">Enable</option>
+                <option value="disable" class="disable" id="StDisable">Disable</option>
+                <option value="reset" class="rest" id="StRest">Reset</option>
+            </select>
+        </div>
+        <div class="hrs">
+            <div id="HStudy" class="heure">00:00:00</div>
+        </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="StChange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="B6" class="container4">
+        <i class="fa-solid fa-hands-holding-child fa-2x"></i>
+        <div class="container5">
+          <div class="ecrire">
+            <p>Self Care</p>
+            <div class="custom-select-wrapper">
+              <div class="custom-select-trigger">...</div>
+              <select class="custom-select" id="SCSelect">
+                <option value="enable" class="enable" id="SCEnable">Enable</option>
+                <option value="disable" class="disable" id="SCDisable">Disable</option>
+                <option value="reset" class="rest" id="SCRest">Reset</option>
+            </select>
+        </div>
+        <div class="hrs">
+            <div id="HSelf" class="heure">00:00:00</div>
+        </div>
+            <br>
+            <div class="last">
+              <label class="change">Last Week-</label>
+              <label id="SCChange">0</label>
+              <p>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+</div>
+
+  <script src="script/script.js"></script>
+  <script src="script/select.js"></script>
+</body>
+</html>
