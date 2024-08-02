@@ -8,7 +8,7 @@ The Time Tracking Dashboard is a web application designed to help users manage a
 
 Here is the link to the solution: [Time Tracking Dashboard](https://djeghlaflydia.github.io/Time_tracking_dashboard/)
 
-![GitHub](https://github.com/user-attachments/assets/b1ffe8e1-bdea-4a2a-a1e0-b24a2220f62c)
+![GitHub](https://github.com/user-attachments/assets/65de14a3-47dc-4ad5-82e9-a227a4e30e18)
 
 ## Features
 
